@@ -1,5 +1,7 @@
 # Fiche 02 : Dell OptiPlex 3020, remise en service et Windows 11
 
+<img src="https://img.shields.io/badge/Remis%20en%20service-2E8B57?style=flat-square" alt="Remis en service">
+
 **Date :** octobre 2026 · **Appareil :** Dell OptiPlex 3020 (PC de bureau) · **Résultat :** Remis en service, devenu poste de travail de la boutique
 
 ## Symptôme
@@ -25,3 +27,7 @@ Mot de passe BIOS laissé par l'ancien propriétaire. Ensuite, matériel non com
 ## Ce que j'en retiens
 
 Sur un vieux poste d'entreprise, vérifier d'abord le mot de passe BIOS et la compatibilité TPM avant de préparer l'installation. Le contournement TPM est acceptable pour un poste interne, pas pour un parc géré où la sécurité compte.
+
+---
+
+[← Retour au journal](README.md)

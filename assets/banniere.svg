@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Journal de dépannage — fiches d'intervention de stage">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1B1F27"/>
+      <stop offset="1" stop-color="#3A2A1E"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="320" rx="16" fill="url(#bg)"/>
+  <!-- trace de circuit -->
+  <g fill="none" stroke="#F28C28" stroke-opacity="0.35" stroke-width="3" stroke-linecap="round">
+    <path d="M960 40 H1060 V80 H1180"/><path d="M940 280 H1040 V200 H1220"/><path d="M1100 20 V70"/>
+  </g>
+  <g fill="#F28C28"><circle cx="1180" cy="80" r="7"/><circle cx="1220" cy="200" r="7"/><circle cx="960" cy="40" r="7"/><circle cx="940" cy="280" r="7"/></g>
+  <!-- puce -->
+  <g transform="translate(1030 120)">
+    <rect x="0" y="0" width="110" height="110" rx="12" fill="#F28C28"/>
+    <rect x="22" y="22" width="66" height="66" rx="6" fill="#1B1F27"/>
+    <g stroke="#F28C28" stroke-width="6" stroke-linecap="round">
+      <path d="M25 -14 V0"/><path d="M55 -14 V0"/><path d="M85 -14 V0"/>
+      <path d="M25 110 V124"/><path d="M55 110 V124"/><path d="M85 110 V124"/>
+      <path d="M-14 25 H0"/><path d="M-14 55 H0"/><path d="M-14 85 H0"/>
+      <path d="M110 25 H124"/><path d="M110 55 H124"/><path d="M110 85 H124"/>
+    </g>
+  </g>
+  <text x="64" y="128" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="#FFFFFF">Journal de dépannage</text>
+  <text x="64" y="180" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" fill="#F5D9BF">Symptôme → tests → cause → solution</text>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="600">
+    <rect x="64" y="216" width="240" height="40" rx="20" fill="#F28C28" fill-opacity="0.18"/>
+    <text x="184" y="242" text-anchor="middle" fill="#FFFFFF">Stage en atelier · 2026</text>
+    <rect x="318" y="216" width="240" height="40" rx="20" fill="#F28C28" fill-opacity="0.18"/>
+    <text x="438" y="242" text-anchor="middle" fill="#FFFFFF">Portables · PC · Surface</text>
+  </g>
+</svg>

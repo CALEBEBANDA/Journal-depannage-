@@ -1,5 +1,7 @@
 # Fiche 01 : Acer Nitro 5 qui ne démarre pas
 
+<img src="https://img.shields.io/badge/R%C3%A9par%C3%A9-2E8B57?style=flat-square" alt="Réparé">
+
 **Date :** octobre 2026 · **Appareil :** Acer Nitro 5 AN515-55-75J1 (2021) · **Résultat :** Réparé
 
 ## Symptôme
@@ -25,3 +27,7 @@ Réinitialisation du BIOS par débranchement de la pile CMOS, puis remontage com
 ## Ce que j'en retiens
 
 Tester en configuration minimale élimine vite la RAM et le stockage. Quand rien ne change, penser au BIOS avant de soupçonner la carte mère.
+
+---
+
+[← Retour au journal](README.md)

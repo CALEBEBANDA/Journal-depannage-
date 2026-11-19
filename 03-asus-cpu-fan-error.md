@@ -1,5 +1,7 @@
 # Fiche 03 : PC Asus, message « CPU FAN ERROR »
 
+<img src="https://img.shields.io/badge/En%20cours-F28C28?style=flat-square" alt="En cours">
+
 **Date :** octobre 2026 · **Appareil :** PC de bureau Asus, carte mère P8H61-M PRO, alimentation AcBel 350 W · **Résultat :** En cours
 
 ## Symptôme
@@ -21,3 +23,7 @@ Pas encore confirmée. Hypothèses : ventilateur du processeur défectueux (fil 
 Test croisé : brancher un ventilateur du boîtier sur CPU_FAN, et le ventirad sur CHA_FAN. Si l'erreur suit le ventilateur, c'est lui qu'il faut changer.
 
 > Fiche mise à jour dès que la cause est confirmée.
+
+---
+
+[← Retour au journal](README.md)

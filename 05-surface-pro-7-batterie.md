@@ -1,5 +1,7 @@
 # Fiche 05 : Surface Pro 7, batterie non détectée
 
+<img src="https://img.shields.io/badge/R%C3%A9par%C3%A9-2E8B57?style=flat-square" alt="Réparé">
+
 **Date :** novembre 2026 · **Appareil :** Microsoft Surface Pro 7 (modèle 1866), Windows 11, UEFI 23.101.140 · **Résultat :** Réparé (remplacement de la carte mère)
 
 ## Symptôme
@@ -28,3 +30,7 @@ Remplacement de la carte mère par une carte de Surface Pro 7. Le rapport de bat
 ## Ce que j'en retiens
 
 Le rapport de batterie Windows montre si le système communique vraiment avec la batterie, quelle que soit la jauge. Croiser les pièces (la batterie dans un autre appareil) évite de remplacer une pièce saine, et on va toujours du moins coûteux au plus coûteux avant de toucher à la carte mère.
+
+---
+
+[← Retour au journal](README.md)

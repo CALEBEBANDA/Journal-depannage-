@@ -1,5 +1,7 @@
 # Fiche 04 : portable sans aucun signe de vie
 
+<img src="https://img.shields.io/badge/En%20cours-F28C28?style=flat-square" alt="En cours">
+
 **Date :** octobre 2026 · **Appareil :** ordinateur portable, deux SSD SanDisk · **Résultat :** En cours
 
 ## Symptôme
@@ -19,3 +21,7 @@ Aucun voyant et aucune réaction au bouton d'alimentation, chargeur branché.
 Pas encore trouvée. Le courant arrive jusqu'à la carte, donc le chargeur et le connecteur sont probablement hors de cause.
 
 > Fiche mise à jour dès que la cause est confirmée.
+
+---
+
+[← Retour au journal](README.md)

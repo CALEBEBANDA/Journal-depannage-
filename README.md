@@ -1,23 +1,39 @@
+<p align="center"><img src="assets/banniere.svg" alt="Journal de dépannage — symptôme, tests, cause, solution" width="100%"></p>
+
 # Journal de dépannage
 
 Fiches d'intervention tirées de mon stage de technicien informatique chez LaboPhone Inc., atelier de réparation (octobre – novembre 2026), dans le cadre du DEP Soutien informatique (ESIDEM, Montréal).
 
 Chaque fiche suit le même ordre : **symptôme → tests → cause → solution → ce que j'en retiens**. Les informations des clients ne sont pas publiées.
 
+<p>
+  <img src="https://img.shields.io/badge/fiches-5-informational?style=flat-square" alt="5 fiches">
+  <img src="https://img.shields.io/badge/r%C3%A9par%C3%A9s-3-2E8B57?style=flat-square" alt="3 réparés">
+  <img src="https://img.shields.io/badge/en%20cours-2-F28C28?style=flat-square" alt="2 en cours">
+  <img src="https://img.shields.io/badge/outils-multim%C3%A8tre%20%C2%B7%20BIOS%20%C2%B7%20powercfg-555?style=flat-square" alt="Outils">
+</p>
+
 | Fiche | Appareil | Problème | Résultat |
 | --- | --- | --- | --- |
-| [01](01-acer-nitro5-ne-demarre-pas.md) | Acer Nitro 5 AN515-55 | Ne démarre pas, ventilateurs muets | Réparé |
-| [02](02-dell-optiplex-3020-windows11.md) | Dell OptiPlex 3020 | Mot de passe BIOS inconnu, installation de Windows 11 bloquée | Remis en service |
-| [03](03-asus-cpu-fan-error.md) | PC Asus, carte P8H61-M PRO | Message « CPU FAN ERROR » | En cours |
-| [04](04-portable-aucun-signe-de-vie.md) | Portable à deux SSD | Aucun voyant malgré 19 à 20 V au connecteur | En cours |
-| [05](05-surface-pro-7-batterie.md) | Microsoft Surface Pro 7 | Batterie non détectée, arrêt dès qu'on débranche | Réparé |
+| [01](01-acer-nitro5-ne-demarre-pas.md) | Acer Nitro 5 AN515-55 | Ne démarre pas, ventilateurs muets | <img src="https://img.shields.io/badge/R%C3%A9par%C3%A9-2E8B57?style=flat-square" alt="Réparé"> |
+| [02](02-dell-optiplex-3020-windows11.md) | Dell OptiPlex 3020 | Mot de passe BIOS inconnu, installation de Windows 11 bloquée | <img src="https://img.shields.io/badge/Remis%20en%20service-2E8B57?style=flat-square" alt="Remis en service"> |
+| [03](03-asus-cpu-fan-error.md) | PC Asus, carte P8H61-M PRO | Message « CPU FAN ERROR » | <img src="https://img.shields.io/badge/En%20cours-F28C28?style=flat-square" alt="En cours"> |
+| [04](04-portable-aucun-signe-de-vie.md) | Portable à deux SSD | Aucun voyant malgré 19 à 20 V au connecteur | <img src="https://img.shields.io/badge/En%20cours-F28C28?style=flat-square" alt="En cours"> |
+| [05](05-surface-pro-7-batterie.md) | Microsoft Surface Pro 7 | Batterie non détectée, arrêt dès qu'on débranche | <img src="https://img.shields.io/badge/R%C3%A9par%C3%A9-2E8B57?style=flat-square" alt="Réparé"> |
 
 ## Ma méthode
 
-1. **Reproduire** le symptôme et noter l'état exact (voyants, messages, comportement sur batterie et sur secteur).
-2. **Recueillir les données** avant de démonter : BIOS, rapport de batterie, mesures au multimètre.
-3. **Éliminer une cause à la fois**, de la plus simple à la plus coûteuse : configuration minimale, CMOS, chargeur, pièces remplaçables, puis carte mère.
-4. **Croiser les tests** : une pièce suspecte dans un autre appareil, ou une pièce sûre dans l'appareil en panne.
-5. **Documenter** chaque test et son résultat, pour le superviseur et pour le client.
+```mermaid
+flowchart LR
+    A["🔎 Reproduire<br/>le symptôme"] --> B["📋 Recueillir<br/>les données<br/>BIOS · rapport · multimètre"]
+    B --> C["🧪 Éliminer<br/>une cause à la fois<br/>du moins coûteux<br/>au plus coûteux"]
+    C --> D{"Cause<br/>trouvée ?"}
+    D -- "non" --> E["🔁 Croiser les tests<br/>pièce suspecte ailleurs<br/>pièce sûre ici"]
+    E --> C
+    D -- "oui" --> F["🔧 Réparer"]
+    F --> G["📝 Documenter<br/>pour le superviseur<br/>et le client"]
+    classDef ok fill:#E5F4E4,stroke:#2E8B57,color:#1B4D2E
+    class F,G ok
+```
 
 Modèle vierge : [MODELE-FICHE.md](MODELE-FICHE.md)
