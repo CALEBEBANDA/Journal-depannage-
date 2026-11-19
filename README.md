@@ -7,11 +7,13 @@ Fiches d'intervention tirées de mon stage de technicien informatique chez LaboP
 Chaque fiche suit le même ordre : **symptôme → tests → cause → solution → ce que j'en retiens**. Les informations des clients ne sont pas publiées.
 
 <p>
-  <img src="https://img.shields.io/badge/fiches-5-informational?style=flat-square" alt="5 fiches">
+  <img src="https://img.shields.io/badge/fiches-7-informational?style=flat-square" alt="7 fiches">
   <img src="https://img.shields.io/badge/r%C3%A9par%C3%A9s-3-2E8B57?style=flat-square" alt="3 réparés">
-  <img src="https://img.shields.io/badge/en%20cours-2-F28C28?style=flat-square" alt="2 en cours">
+  <img src="https://img.shields.io/badge/en%20cours-4-F28C28?style=flat-square" alt="4 en cours">
   <img src="https://img.shields.io/badge/outils-multim%C3%A8tre%20%C2%B7%20BIOS%20%C2%B7%20powercfg-555?style=flat-square" alt="Outils">
 </p>
+
+📅 **[Déroulement du stage, semaine par semaine](stage.md)** : l'atelier en photos, toutes mes interventions et les compétences mises en pratique.
 
 | Fiche | Appareil | Problème | Résultat |
 | --- | --- | --- | --- |
@@ -20,6 +22,8 @@ Chaque fiche suit le même ordre : **symptôme → tests → cause → solution 
 | [03](03-asus-cpu-fan-error.md) | PC Asus, carte P8H61-M PRO | Message « CPU FAN ERROR » | <img src="https://img.shields.io/badge/En%20cours-F28C28?style=flat-square" alt="En cours"> |
 | [04](04-portable-aucun-signe-de-vie.md) | Portable à deux SSD | Aucun voyant malgré 19 à 20 V au connecteur | <img src="https://img.shields.io/badge/En%20cours-F28C28?style=flat-square" alt="En cours"> |
 | [05](05-surface-pro-7-batterie.md) | Microsoft Surface Pro 7 | Batterie non détectée, arrêt dès qu'on débranche | <img src="https://img.shields.io/badge/R%C3%A9par%C3%A9-2E8B57?style=flat-square" alt="Réparé"> |
+| [06](06-hp-pavilion-p7-1042-sans-affichage.md) | HP Pavilion p7-1042 (tour) | S'allume sans affichage | <img src="https://img.shields.io/badge/En%20cours-F28C28?style=flat-square" alt="En cours"> |
+| [07](07-hp-ventilateur-ne-tourne-pas.md) | Portable HP, carte DA0PAHMB8F0 | Voyants allumés, ventilateur immobile | <img src="https://img.shields.io/badge/En%20cours-F28C28?style=flat-square" alt="En cours"> |
 
 ## Ma méthode
 

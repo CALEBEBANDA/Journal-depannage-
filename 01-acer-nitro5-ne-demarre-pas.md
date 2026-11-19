@@ -24,6 +24,9 @@ Paramètres du BIOS corrompus. Le retrait de la pile CMOS a réinitialisé le BI
 
 Réinitialisation du BIOS par débranchement de la pile CMOS, puis remontage complet et test de démarrage.
 
+<p align="center"><img src="images/semaine2-acer-nitro5-demarrage-windows.jpg" width="320" alt="Acer Nitro 5 ouvert qui démarre jusqu'à l'écran de verrouillage de Windows"></p>
+<p align="center"><em>Le Nitro 5, boîtier encore ouvert, qui démarre enfin jusqu'à l'écran de verrouillage de Windows : ma première réparation réussie du stage.</em></p>
+
 ## Ce que j'en retiens
 
 Tester en configuration minimale élimine vite la RAM et le stockage. Quand rien ne change, penser au BIOS avant de soupçonner la carte mère.
