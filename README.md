@@ -37,3 +37,13 @@ flowchart LR
 ```
 
 Modèle vierge : [MODELE-FICHE.md](MODELE-FICHE.md)
+
+## À propos de ce journal
+
+| Réalisé par moi, Caleb Ebanda | Réalisé avec l'aide de Claude (assistant IA d'Anthropic) |
+|---|---|
+| Toutes les réparations : diagnostic, démontage, mesures au multimètre, tests, remplacement de pièces | La rédaction et la mise en forme des fiches à partir de mes notes et de mes rapports d'intervention |
+| Les notes d'intervention et les rapports hebdomadaires pour mon superviseur | La bannière, les badges et le schéma de la méthode |
+
+Claude ne touche pas aux appareils : il m'aide seulement à écrire et à présenter ce que j'ai fait en atelier.
+
